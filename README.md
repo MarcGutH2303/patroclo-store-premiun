@@ -1,4 +1,4 @@
-# patroclo-store-premiun
+# patroclo-store-premiun - examen PEA2
  Pagina Web con el curso de taller de programacion Web Laravel
 
 # requisitos
@@ -23,3 +23,9 @@
 # comandos mas usados
 - php artisan make:controller CategoriaController
 - php artisan make:model Categoria
+
+# nombres y apellidos
+- Marco Antonio Gutierrez Huaroto
+
+# link youtube
+- https://youtu.be/VLV8NQ3IvoA

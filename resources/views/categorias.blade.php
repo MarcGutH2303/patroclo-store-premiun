@@ -8,9 +8,11 @@
 
         @foreach($categorias as $categoria)
 
-            <div class="bg-gray-200 hover:bg-gray-300 w-[300px] h-[200px] p-4 rounded cursor-pointer">
-                <img class="h-[130px] w-full object-cover rounded" src="{{ $categoria->imagen_url }}" alt="">
-                <p class="text-center mt-3 font-medium text-gray-800">{{ $categoria->nombre }}</p>
+            <div class="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer" onclick="verSubcategorias('{{ $categoria->id_categoria }}')">
+                <img class="w-full object-cover rounded" src="{{ $categoria->imagen_url }}" alt="Imagen de ejemplo">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">{{ $categoria->nombre }}</div>
+                </div>
             </div>
 
         @endforeach
@@ -18,3 +20,9 @@
     </div>
 
 @endsection
+
+<script>
+    function verSubcategorias(id_categoria) {
+        window.location.href = `../public/subcategoria/${id_categoria}`
+    }
+</script>

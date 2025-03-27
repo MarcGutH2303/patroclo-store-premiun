@@ -1,0 +1,17 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-C7QHzJ8P.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/img/banner_patroclo.jpg": {
+    "file": "assets/banner_patroclo-DeLcH2ff.jpg",
+    "src": "resources/img/banner_patroclo.jpg"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-eMHK6VFw.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
